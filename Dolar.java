@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane; 
 public class Dolar {
     public static void main(String[] x) {
-    double cot, real, valor;
+    double cot, valor;
     //entrada de dados
     valor = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor em dolar:"));
     //processamento
