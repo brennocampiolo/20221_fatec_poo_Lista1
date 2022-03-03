@@ -10,7 +10,7 @@ public class Venda {
     comissao = venda_total * (5/100);
     salario = venda_total + comissao;
     //saida
-JOptionPane.showMessageDialog(null, "O valor git statuda comissão é:" + comissao);
+JOptionPane.showMessageDialog(null, "O valor da comissão é:" + comissao);
 JOptionPane.showMessageDialog(null, "O salario do funcionario com o bonus é:" + salario);
     }
 }
